@@ -1,0 +1,875 @@
+{
+  "Metadata": {
+    "title": "i-Sprint - Web Design & Development, Mobile Apps, Digital Marketing",
+    "description": "i-Sprint provides professional web design, web development, mobile app development, SEO, and digital marketing solutions for small and medium businesses in Egypt and the Gulf.",
+    "keywords": "web design, web development, mobile apps, SEO, digital marketing, web design for small businesses, mobile app development for companies",
+    "author": "i-Sprint"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Who We Are",
+    "services": "Digital Services",
+    "projects": "Our Work",
+    "pricing": "Pricing Plans",
+    "start": "Start Your Journey"
+  },
+  "Start": "Start",
+  "ctaStart": "Start Your Project",
+  "hero": {
+    "slides": {
+      "0": {
+        "title": "Launch Your Website. Grow Your Business.",
+        "subtitle": "Modern • Fast • Reliable",
+        "description": "I build websites that help you attract customers, look professional, and grow your business online — all without stress.",
+        "badge": "Business Website Expert"
+      },
+      "1": {
+        "title": "Sell Online with Ease & Power",
+        "subtitle": "E-commerce • Payments • Mobile",
+        "description": "Start selling online today. I build powerful online stores with secure checkout, product management, and a great user experience.",
+        "badge": "E-commerce Developer"
+      },
+      "2": {
+        "title": "Design That Builds Trust",
+        "subtitle": "UI/UX • Mobile-first • Beautiful",
+        "description": "Your website is your first impression. I design interfaces that look great and are easy to use — on any device.",
+        "badge": "Pixel-Perfect UI/UX"
+      }
+    },
+    "ctaView": "View Our Work",
+
+    "features": [
+      {
+        "title": "Lightning-Fast Delivery",
+        "desc": "We launch your project in record time without compromising quality."
+      },
+      {
+        "title": "Custom-Built Solutions",
+        "desc": "Everything is tailored to your exact business goals and workflow."
+      },
+      {
+        "title": "After-Sales Support",
+        "desc": "We stay with you even after launch — handling updates, improvements, and quick fixes."
+      },
+      {
+        "title": "Security & Reliability",
+        "desc": "Built with security best practices to ensure peace of mind."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "badge": "Why Choose WebSprint",
+    "title": "Our Mission: Delivering Exceptional Web Solutions",
+    "subtitle": "With over 10 years of experience and 500+ successful projects, we craft websites and digital solutions that help your business grow online.",
+    "sectionTitle": "What Makes Us Different",
+    "sectionDesc": "We don’t just build websites – we create responsive, high-performance, and SEO-optimized digital experiences that drive results and increase online presence.",
+    "features": [
+      "Modern technologies and frameworks for professional web development",
+      "Mobile-first responsive design for seamless experiences on all devices",
+      "SEO-optimized websites built from the ground up for maximum visibility",
+      "Performance-optimized web and mobile applications for fast load times",
+      "Clean, maintainable code ensuring scalable and robust digital solutions",
+      "Comprehensive testing for web and mobile apps to guarantee quality",
+      "Ongoing maintenance and support to keep your projects up-to-date",
+      "Scalable architecture designed for web and mobile projects of any size"
+    ],
+    "experienceYears": "10+ Years",
+    "experienceText": "Delivering Excellence in Web & Digital Solutions"
+  },
+  "projectsHome": {
+    "badge": "Some of Our Featured Projects",
+    "title": "Creative Power",
+    "description": "Explore a selection of tailored web solutions — designed for impact, built for performance. Web design, web development, and digital solutions.",
+    "ctaTitle": "Curious About Our Work?",
+    "ctaDescription": "Dive into our portfolio to see how we’ve transformed ideas into powerful digital experiences. Each project is a story of innovation and craftsmanship.",
+    "ctaButton": "View All Projects"
+  },
+  "steps": {
+    "tag": "From Idea to Launch",
+    "title": "Proven Project Roadmap",
+    "description": "We follow a clear, proven roadmap to deliver your project on time, within budget, and beyond expectations.",
+    "start": "Start Your Project",
+    "whatsapp": "Contact on WhatsApp",
+    "steps": [
+      {
+        "title": "Planning & Strategy",
+        "description": "We analyze your goals and craft a tailored digital roadmap."
+      },
+      {
+        "title": "Design & Prototyping",
+        "description": "We create beautiful interfaces and interactive prototypes."
+      },
+      {
+        "title": "Development",
+        "description": "Our engineers bring the designs to life with fast, scalable code."
+      },
+      {
+        "title": "Launch & Deploy",
+        "description": "We handle the full launch process for a smooth release."
+      }
+    ]
+  },
+  "services": {
+    "headerTag": "What We Can Build For You",
+    "headerTitle": "Smart Digital Solutions",
+    "headerDescription": "We design, develop, and optimize complete digital solutions — tailored to fit your goals and scale with your business growth.",
+    "list": [
+      {
+        "title": "Digital Business Consulting",
+        "description": "Shape your ideas into actionable strategies with clear goals for sustainable growth.",
+        "features": [
+          "Digital Strategy Roadmaps",
+          "Growth & Scalability Planning",
+          "In-depth Market Analysis",
+          "Competitive Benchmarking",
+          "Goal Definition & KPIs"
+        ]
+      },
+      {
+        "title": "Web Design",
+        "description": "Creative and responsive designs that reflect your brand identity and captivate users.",
+        "features": [
+          "Responsive Layouts",
+          "Custom UI/UX",
+          "Interactive Elements",
+          "Accessibility Standards",
+          "Cross-browser Compatibility"
+        ]
+      },
+      {
+        "title": "Web Development",
+        "description": "Scalable, SEO-friendly websites built with modern technologies.",
+        "features": [
+          "Full-Stack Development",
+          "Optimized Site Structure",
+          "Performance Tuning",
+          "CMS Integration",
+          "API & Third-party Services"
+        ]
+      },
+      {
+        "title": "Custom Web Solutions",
+        "description": "Advanced web systems tailored for your unique business needs.",
+        "features": [
+          "Custom Platforms & Systems",
+          "Complex Data Management",
+          "Custom Admin Dashboards",
+          "API Integrations",
+          "Enhanced Security"
+        ]
+      },
+      {
+        "title": "Mobile-first Solutions",
+        "description": "High-performance mobile apps and web experiences designed for growth.",
+        "features": [
+          "Cross-platform (iOS & Android)",
+          "Hybrid & Native Apps",
+          "Real-time Notifications",
+          "Backend & API Integration",
+          "Optimized Mobile UX/UI"
+        ]
+      },
+      {
+        "title": "Web Hosting & Support",
+        "description": "Secure, reliable hosting with 24/7 technical support.",
+        "features": [
+          "Cloud Hosting",
+          "Automated Daily Backups",
+          "SSL Certificates",
+          "Real-time Uptime Monitoring",
+          "Dedicated Technical Support"
+        ]
+      }
+    ],
+    "bottomTitle": "Want to Explore More?",
+    "bottomDescription": "We offer a wide range of digital services tailored to your needs. Discover how we can support your business growth.",
+    "bottomButton": "View All Services"
+  },
+
+  "stats": {
+    "tag": "Company Metrics",
+    "title": "Our Success in Web & App Development - i-Sprint",
+    "subtitle": "Trusted Experts in Websites, Mobile Apps, and PWAs",
+    "description": "With over 10 years of experience, i-Sprint delivers professional web development services, mobile app solutions, and progressive web apps (PWAs). Our clients in Egypt and worldwide trust us for reliable, on-time project delivery.",
+    "startProject": "Start Your Project",
+    "yearsExperience": "Years of Experience",
+    "since": "Since 2015",
+    "avgDeliveryTime": "Average Delivery Time",
+    "fromIdea": "From idea to live product",
+    "projectsCompleted": "Projects Completed",
+    "delivered": "Successfully Delivered",
+    "onTimeDelivery": "On-Time Delivery",
+    "punctual": "Punctual & Reliable"
+  },
+  "pwa": {
+    "badge": "PWA Excellence",
+    "title": "Progressive Web Apps",
+    "subtitle": "Installable web applications that work on any device and offline.",
+    "sectionTitle": "Key Benefits of PWAs",
+    "sectionDesc": "Our PWAs deliver native-app-like experience, offline capabilities, responsive design, and push notifications.",
+    "cta": "Start Building Your PWA",
+    "features": [
+      {
+        "title": "Responsive on All Devices",
+        "desc": "Seamless viewing across mobile, tablet, and desktop."
+      },
+      {
+        "title": "Fast Load Speeds",
+        "desc": "Optimized for quick access anywhere, anytime."
+      },
+      {
+        "title": "Offline Browsing",
+        "desc": "Users can access your site without internet."
+      },
+      {
+        "title": "Installable Experience",
+        "desc": "Can be installed directly from the browser."
+      },
+      {
+        "title": "Smart Notifications",
+        "desc": "Send alerts like a native mobile app."
+      },
+      {
+        "title": "Secure and Reliable",
+        "desc": "Enhanced security and reliability across platforms."
+      }
+    ],
+    "imageAlt": "Preview of PWA interface on smartphone"
+  },
+  "mobile": {
+    "badge": "Mobile App Excellence",
+    "title": "Native Mobile Applications",
+    "subtitle": "We build full-featured mobile apps for iOS & Android devices.",
+    "sectionTitle": "Key Benefits of Mobile Apps",
+    "sectionDesc": "Our native apps offer deep device integration, offline access, push notifications, and a real app-like experience.",
+    "cta": "Start Building Your Mobile App",
+    "features": [
+      {
+        "title": "Full Device Integration",
+        "desc": "Leverage device features like camera, GPS, and sensors."
+      },
+      {
+        "title": "Fast Load Speeds",
+        "desc": "Optimized for quick access anywhere, anytime."
+      },
+      {
+        "title": "Offline Functionality",
+        "desc": "Users can access your app even without internet."
+      },
+      {
+        "title": "Push Notifications",
+        "desc": "Send smart alerts to engage your users."
+      },
+      {
+        "title": "High Performance",
+        "desc": "Optimized for fast and smooth performance on mobile devices."
+      },
+      {
+        "title": "Secure and Reliable",
+        "desc": "Top-notch security and stability across platforms."
+      }
+    ],
+    "imageAlt": "Preview of native mobile application interface"
+  },
+  "partners": {
+    "trustedBy": "Our Partners",
+    "mainTitle": "Trusted by Leading Brands & Businesses Worldwide",
+    "description": "More than 15,000 companies across different industries trust i-Sprint for modern, fast, and reliable web & mobile solutions that scale with their growth."
+  },
+  "stepsBusiness": {
+    "tag": "Business Solutions",
+    "title": "Scalable Enterprise Business Systems",
+    "subtitle": "We design and implement modern, intelligent, and enterprise-grade business systems tailored to boost performance, efficiency, and automation across industries.",
+    "list": [
+      {
+        "title": "CRM Systems",
+        "description": "Boost customer relationships with powerful CRM tools for sales, communication, and engagement.",
+        "alt": "CRM Systems by i-Sprint - Customer Relationship Management Solutions"
+      },
+      {
+        "title": "ERP Systems",
+        "description": "Streamline and automate your business processes — from finance to inventory — in one integrated ERP platform.",
+        "alt": "ERP Systems by i-Sprint - Enterprise Resource Planning Solutions"
+      },
+      {
+        "title": "AI Integration",
+        "description": "Enhance your business systems with AI for smarter decisions, advanced automation, and real-time analytics.",
+        "alt": "AI Integration by i-Sprint - Artificial Intelligence Business Solutions"
+      },
+      {
+        "title": "AI Agent",
+        "description": "Implement smart AI agents that act autonomously to handle complex tasks and improve operational efficiency.",
+        "alt": "AI Agent by i-Sprint - Intelligent Automation Solutions"
+      },
+      {
+        "title": "AI Assistant",
+        "description": "Use conversational AI assistants to support users, answer queries, and streamline daily operations.",
+        "alt": "AI Assistant by i-Sprint - Virtual Assistant Solutions"
+      },
+      {
+        "title": "Robotic Process Automation (RPA)",
+        "description": "Automate repetitive tasks and streamline workflows with RPA bots that save time and reduce errors.",
+        "alt": "RPA by i-Sprint - Robotic Process Automation Solutions"
+      },
+      {
+        "title": "E-commerce Solutions",
+        "description": "Launch scalable and optimized online stores with integrated payment, shipping, and product management.",
+        "alt": "E-commerce Solutions by i-Sprint - Online Store Development"
+      },
+      {
+        "title": "Shipment Systems",
+        "description": "Build intelligent shipment and logistics tracking systems integrated with your business flow.",
+        "alt": "Shipment Systems by i-Sprint - Logistics and Supply Chain Solutions"
+      },
+      {
+        "title": "Custom System Development",
+        "description": "We create custom systems tailored exactly to your unique business needs and processes.",
+        "alt": "Custom System Development by i-Sprint - Tailored Business Software"
+      }
+    ]
+  },
+
+
+  "about": {
+    "hero": {
+      "title": "About i-Sprint — Your Digital Growth Partner",
+      "description": "We’re a full-service web agency helping brands grow online through modern design, scalable development, and tailored digital solutions — backed by real partnership and long-term support.",
+      "badge": "Get to Know Us"
+    },
+    "section1": {
+      "badge": "Since 2015 — Your Trusted Partner in Digital Innovation",
+      "badge2": "Behind Every Pixel — A Team of Passionate Experts",
+      "title": "Empowering Your Digital Vision with Smart Web Solutions",
+      "description0": "Founded in 2015, i-Sprint began as a passionate group of developers with a mission to democratize high-quality web development. Today, we've helped over 200 businesses — from startups to large enterprises — launch and grow their digital presence.",
+
+      "description1": "At i-Sprint, we specialize in building custom websites and online stores tailored to your business goals. From hosting and SEO to seamless UX/UI — we turn your ideas into fast, modern, and secure digital experiences.",
+      "features": [
+        "Custom Web Development",
+        "E-commerce Integration",
+        "SEO Optimization",
+        "Performance-Optimized Hosting"
+      ],
+      "description2": "Whether you’re launching a new business or looking to upgrade your digital experience — i-Sprint is here to deliver reliable, modern, and tailored web solutions with speed, creativity, and care."
+    },
+
+    "section2": {
+      "badge": "Innovative Digital Solutions",
+      "title": "Tailored Web & Software Development Services",
+      "subtitle": "We combine creativity, performance, and security to help businesses thrive digitally.",
+      "features": [
+        {
+          "title": "Easy Store Management",
+          "desc": "Manage products, orders, and pages easily without any coding knowledge."
+        },
+        {
+          "title": "Fully Responsive Design",
+          "desc": "Your website looks perfect on desktops, tablets, and mobile devices."
+        },
+        {
+          "title": "Payment Integration",
+          "desc": "Seamless integration with top payment gateways for a smooth checkout experience."
+        },
+        {
+          "title": "Shipping Integration",
+          "desc": "Connect your store with trusted shipping services globally and locally."
+        },
+        {
+          "title": "Performance Analytics",
+          "desc": "Track sales, customer behavior, and marketing performance with clear reports."
+        },
+        {
+          "title": "Data Protection",
+          "desc": "Enterprise-grade security protocols to protect customer and business data."
+        },
+        {
+          "title": "SEO Friendly",
+          "desc": "Optimized for search engines to help your store rank higher and attract more visitors."
+        },
+        {
+          "title": "Visual Customization",
+          "desc": "Change layout, colors, fonts, and banners easily to match your brand identity."
+        },
+        {
+          "title": "Growth Ready",
+          "desc": "Our system grows with your business, offering new features and upgrades automatically."
+        },
+        {
+          "title": "Marketing Tools",
+          "desc": "Connect with email marketing platforms, ads tracking, and social media campaigns."
+        },
+        {
+          "title": "Expert Support",
+          "desc": "Our team is available 24/7 to help you with any technical or business question."
+        },
+        {
+          "title": "Over 10 Years of Experience",
+          "desc": "i-Sprint has been delivering tailored web solutions since 2018, trusted by hundreds of clients."
+        }
+      ],
+      "footerText": " With a focus on quality, performance, and client satisfaction, we aim to be your reliable partner in digital transformation. Whether it’s building a custom website, developing web apps, or providing long-term support — we’re here to help your business grow."
+    },
+    "section3": {
+      "badge": "Innovative Digital Solutions That Scale With You",
+      "title": "Our Values – Excellence in Web & Digital Solutions",
+      "subtitle": "These core values guide everything we do and shape how we work with our clients and each other",
+      "card1": {
+        "title": "What Drives Us",
+        "desc": "To empower businesses of all sizes with exceptional web solutions that drive growth, enhance user experience, and create lasting digital impact. We believe every business deserves a professional, high-performing website that reflects their unique value proposition."
+      },
+      "card2": {
+        "title": "Our Future Journey",
+        "desc": "To be the leading web development partner for businesses worldwide, known for our innovation, quality, and commitment to client success. We envision a digital world where every business has the tools and presence they need to thrive online."
+      }
+    },
+    "section4": {
+      "badge": "Ready to start your project? We're here to help.",
+      "title": "Ready to Work With i-Sprint on Your Web & Digital Project?",
+      "subtitle": "Let’s discuss your web development or digital solution project and see how we can bring your vision to life.",
+      "button": "Start Your Project"
+    }
+  },
+  "projectsPage": {
+    "title": "Showcasing Our Top Web & Digital Projects",
+    "description": "Explore our curated projects, from sleek websites to robust digital platforms, crafted with precision and creativity to help businesses thrive online.",
+    "badge": "View Our Work",
+    "section1": {
+      "badge": "150+ Projects — Proven Results, Real Impact Featured Web Solutions",
+      "title": "Fast Delivery, Proven Results",
+      "description1": "With over",
+      "projectsCount": "150+",
+      "description2": "projects successfully delivered, we’re known for our speed, precision, and client satisfaction. Whether it's a landing page or a full platform, we make it happen—fast.",
+
+      "feature1": "Skilled Web Developers and UI/UX Specialists for professional web solutions",
+      "feature2": "Modern Tech Stacks & Agile Methodology for fast and reliable web projects",
+      "feature3": "Transparent Communication Throughout Every Web Development Project",
+      "feature4": "Reliable Support & Future-Proof Maintenance for digital solutions",
+
+      "card1Title": "150+ Projects Delivered",
+      "card1Desc": "Strong track record across web and digital platforms, including websites, web apps, and eCommerce solutions.",
+
+      "card2Title": "Super Fast Turnaround",
+      "card2Desc": "Quick delivery without compromising web quality, performance, or user experience.",
+
+      "card3Title": "Diverse Portfolio",
+      "card3Desc": "From eCommerce platforms to business websites, we’ve built tailored solutions for every client.",
+
+      "card4Title": "Client Satisfaction",
+      "card4Desc": "High ratings and repeat clients for web development and digital projects worldwide."
+    },
+    "section2": {
+      "badge": "Featured Web Solutions",
+      "title": "Visual Stories Through Web Experiences",
+      "description": "Discover how we turn ideas into powerful digital experiences. Our portfolio showcases tailor-made websites, web apps, and e-commerce platforms that elevate brands and solve real-world problems."
+    },
+    "section4": {
+      "badge": "Featured Web Solutions",
+      "title": "Top Web Development Projects & Digital Solutions",
+      "description": "We deliver professional web projects that reflect our expertise in web design, development, and performance. Our portfolio showcases responsive websites, high-performance platforms, and SEO-optimized digital solutions.",
+      "items": [
+        {
+          "title": "Custom & Professional Design",
+          "desc": "Every project is built from scratch to match our client’s brand and objectives, ensuring a unique web presence."
+        },
+        {
+          "title": "High Performance & Speed",
+          "desc": "Optimized for fast loading and smooth user experience across all devices."
+        },
+        {
+          "title": "Responsive Across Devices",
+          "desc": "Fully responsive layouts that look perfect on mobile, tablet, and desktop."
+        },
+        {
+          "title": "SEO Optimization",
+          "desc": "Following best practices to help your website rank higher on search engines and attract more visitors."
+        }
+      ]
+    },
+    "section5": {
+      "badge": "Tailored Web & Digital Strategies for Your Business",
+      "title": "Custom Web & Digital Solutions — Tailored for Your Business",
+      "description": "Every business is unique. i-Sprint creates tailored web and digital solutions that meet your specific needs, from websites to web applications, ensuring growth, performance, and user satisfaction.",
+      "ctaStart": "Start Your Project",
+      "imageAlt": "Custom web and digital solutions by i-Sprint"
+    }
+  },
+
+  "servicesPage": {
+    "heroTitle": "Complete Web Development & Digital Solutions — From Idea to Online Success",
+    "heroDescription": "Since 2015, i-Sprint has specialized in professional web development, scalable platforms, advanced e-commerce solutions, modern UI/UX design, and reliable hosting with real support. We help businesses and brands turn ideas into successful digital experiences.",
+    "heroBadge": "Your Partner for Professional Web Development & Online Growth",
+    "section1": {
+      "badge": "Since 2015 — Building Fast & Smart Web Platforms",
+      "title": "Professional Custom Web Development Beyond Templates",
+      "description1": "From advanced system customizations to blazing-fast performance, we create scalable, SEO-ready websites that are visually stunning and optimized for growth.",
+      "features": [
+        "System Overhaul & Redesign",
+        "Ultra-Fast Website Performance",
+        "UI/UX Enhancements",
+        "Fix Bugs & Broken Layouts",
+        "Migrate to Modern Tech Stack",
+        "Mobile-Friendly & SEO Optimization"
+      ],
+      "description2": "Whether you're launching from scratch or upgrading an outdated platform — we deliver secure, lightning-fast, and future-proof websites designed to scale with your business."
+    },
+    "mobile": {
+      "badge": "iOS & Android Experts — Mobile-First Solutions",
+      "title": "Build Scalable, Feature-Rich Mobile Apps Users Love",
+      "description1": "We design and develop intuitive, fast, and reliable mobile apps with a native-like experience — from MVPs to enterprise-level business applications.",
+      "features": [
+        "Custom iOS & Android Development",
+        "Cross-Platform Apps with React Native",
+        "Backend Integration & Secure APIs",
+        "Push Notifications, Analytics & Tracking",
+        "App Store & Google Play Deployment",
+        "Modern UI with Outstanding UX"
+      ],
+      "description2": "With i-Sprint, your mobile app gets the performance, scalability, and security needed to stand out and succeed in today’s competitive market."
+    },
+    "section3": {
+      "badge": "Admin Dashboards & Backend Solutions",
+      "title": "Data-Driven Backend Systems for Smarter Business Decisions",
+      "desc1": "We design and develop custom dashboards and backend systems that empower businesses with real-time insights, automate workflows, and enhance performance monitoring — all with enterprise-grade security.",
+      "features": [
+        "Custom Admin & Analytics Dashboards",
+        "Advanced Business Intelligence & Reporting",
+        "User & Role Management Systems",
+        "Secure API Development & Integrations",
+        "Real-Time Data Monitoring",
+        "Workflow Automation & Process Optimization"
+      ],
+      "desc2": "From handling large-scale datasets to integrating with complex APIs, our backend and dashboard solutions are scalable, cloud-ready, and tailored to your business growth."
+    },
+    "section4": {
+      "badge": "Full-Service Web Development & Digital Solutions",
+      "title": "Professional Web Services Built for Growth, Speed & Performance",
+      "description": "Explore our full range of scalable, secure, and business-focused web services — from custom design and development to SEO, e-commerce, mobile apps, and enterprise systems. Everything you need to launch, grow, and sustain your digital presence.",
+      "list": [
+        {
+          "title": "Digital Business Consulting",
+          "description": "Shape your ideas, set clear goals, and build a winning digital strategy for growth and scalability.",
+          "features": [
+            "Digital Strategy",
+            "Growth Planning",
+            "Market Analysis",
+            "Competitive Benchmarking",
+            "Goal Definition"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Web Development",
+          "description": "Custom, robust, and scalable websites built with modern technologies and SEO-friendly structures.",
+          "features": [
+            "Full-Stack Development",
+            "SEO Friendly Structures",
+            "Performance Optimization",
+            "CMS Integration",
+            "API Integration"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Mobile App Development — iOS & Android",
+          "description": "Seamless mobile experiences with feature-rich apps designed for usability, growth, and performance.",
+          "features": [
+            "Cross-platform development (iOS & Android)",
+            "Hybrid & Native app solutions",
+            "Real-time push notifications",
+            "Integrated backend & APIs",
+            "Optimized mobile-first UX/UI"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Website Speed & Performance Optimization",
+          "description": "Boost your site’s loading speed and overall performance for better rankings and user experience.",
+          "features": [
+            "Core Web Vitals",
+            "Lazy Loading",
+            "Code Splitting",
+            "Image Optimization",
+            "Site Speed Improvement"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Security & Compliance",
+          "description": "Protect your website with enterprise-grade security and compliance for safer operations.",
+          "features": [
+            "Data Encryption",
+            "GDPR Compliance",
+            "Penetration Testing",
+            "Audit Trails",
+            "Security Optimization"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Web Design",
+          "description": "Creative and responsive web design that reflects your brand and ensures accessibility.",
+          "features": [
+            "Responsive Web Design",
+            "Custom UI/UX",
+            "Interactive Elements",
+            "Accessibility Compliance",
+            "Cross-browser Compatibility"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "SEO Optimization",
+          "description": "Improve your Google rankings with advanced SEO strategies and technical optimization.",
+          "features": [
+            "Technical SEO Audit",
+            "On-Page Optimization",
+            "Meta Tags & Keywords",
+            "Content Optimization",
+            "Link Building Strategy"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "E-commerce Solutions",
+          "description": "Sell online with powerful, secure, and scalable e-commerce stores built to grow.",
+          "features": [
+            "Online Store Setup",
+            "Secure Payment Gateways",
+            "Product Management",
+            "Shipping Integration",
+            "Sales Analytics"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Web Hosting & Support",
+          "description": "Reliable cloud hosting and 24/7 technical support to keep your business online.",
+          "features": [
+            "Cloud Hosting",
+            "Daily Backups",
+            "SSL Certificates",
+            "Uptime Monitoring",
+            "Technical Support"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "CRM Development",
+          "description": "Custom CRM platforms to manage relationships, pipelines, and business growth.",
+          "features": [
+            "Custom CRM Platforms",
+            "Data Management",
+            "Workflow Automation",
+            "Reporting",
+            "API Integrations"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "ERP Development",
+          "description": "Enterprise ERP systems for resource, finance, and operations management.",
+          "features": [
+            "Resource Management",
+            "Financial Modules",
+            "Workflow Automation",
+            "User Roles & Permissions",
+            "Custom Integrations"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Custom Web Solutions",
+          "description": "Tailor-made web systems designed for complex business requirements.",
+          "features": [
+            "Custom System Development",
+            "Complex Data Handling",
+            "Custom Admin Panels",
+            "API Connections",
+            "Security Integration"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Content Writing & Articles",
+          "description": "Professional, SEO-friendly content that drives engagement and growth.",
+          "features": [
+            "Website Copywriting",
+            "SEO-friendly Content",
+            "Blog Articles",
+            "Product Descriptions",
+            "Marketing Copy"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "AI Integration & Automation",
+          "description": "Smart AI-powered solutions to automate and optimize your business processes.",
+          "features": [
+            "AI Chatbots",
+            "Smart Recommendations",
+            "Predictive Analytics",
+            "Content Generation Tools",
+            "Marketing Automation"
+          ],
+          "gradient": "to-black from-black"
+        },
+        {
+          "title": "Technical Support & Maintenance",
+          "description": "Keep your systems running smoothly with 24/7 monitoring and maintenance.",
+          "features": [
+            "24/7 Monitoring",
+            "Bug Fixes",
+            "Security Audits",
+            "Plugin Updates",
+            "Disaster Recovery"
+          ],
+          "gradient": "to-black from-black"
+        }
+      ]
+    },
+
+    "coreValuesSection": {
+      "badge": "Why Businesses Trust i-Sprint",
+      "title": "Core Values in Web Development & Digital Solutions",
+      "description": "At i-Sprint, our values drive every project — from web design and development to digital transformation. Trusted by businesses in Egypt and the Middle East.",
+      "WhatStrive": {
+        "title": "What We Strive For",
+        "text": "We deliver tailored web solutions — from professional website development to SEO-friendly digital strategies. Our goal is to help businesses grow, engage users, and achieve online success."
+      },
+      "ShapingNext": {
+        "title": "Shaping What’s Next",
+        "text": "We aim to be Egypt’s top partner in web development and digital solutions, empowering businesses with innovative tools to thrive in the digital future."
+      }
+    },
+    "ctaSection": {
+      "title": "Looking for a Custom Web Solution?",
+      "description": "Your business deserves a unique digital solution. At i-Sprint, we build tailored websites, mobile apps, and digital platforms that match your goals, industry, and audience — scalable, secure, and SEO-friendly.",
+      "button": "Start Your Project Today"
+    }
+  },
+
+  "startPage": {
+    "title": "24/7 Service for Web & App Development — Turning Your Ideas into Digital Success",
+    "description": "Connect with i-Sprint for professional web and mobile app development. Powerful digital solutions, fast results, and 24/7 support to help you succeed online. Get a free consultation and join the companies we've helped grow digitally.",
+    "badge": "Response within one hour",
+    "heroEnd": {
+      "features": [
+        {
+          "title": "Call i-Sprint Web Experts",
+          "details": "+20 109 155 1442",
+          "description": "Speak directly with our experienced web developers and digital solution specialists for fast assistance."
+        },
+        {
+          "title": "Chat with i-Sprint on WhatsApp",
+          "details": "+20 109 155 1442",
+          "description": "Instant replies 24/7 — discuss your web projects and get expert guidance immediately."
+        },
+        {
+          "title": "Email i-Sprint for Quick Response",
+          "details": "info@i-sprint.com",
+          "description": "Receive a reply within 1 business hour from our web development and digital solutions team."
+        }
+      ]
+    },
+    "section2": {
+      "badge": "Talk to Our Experts — Available 24/7",
+      "title": "Turn Your Vision into Reality with i-Sprint Web Development Services",
+      "description": "Whether it’s a simple idea or a full-scale project, i-Sprint brings your vision to life through professional web and app development, with fast support, clear communication, and results that exceed expectations.",
+      "formTitle": "Get Expert Help for Your Website — Fast & Easy",
+      "formSubtitle": "Whether you’re ready to start or still exploring, we make it simple and stress-free to contact us. Get a free consultation and a clear development plan when you reach out.",
+      "quickResponseTitle": "Guaranteed Fast Responses for Your Projects",
+      "quickResponseList": [
+        "Response within 1 hour for web development inquiries",
+        "Free consultation call for your digital project",
+        "Detailed project proposal for your website or app",
+        "Non-binding pricing quote"
+      ],
+      "urgentHelpTitle": "Need Urgent Help?",
+      "urgentHelpDescription": "For current clients facing urgent technical issues, contact i-Sprint experts directly via WhatsApp.",
+      "urgentHelpButton": "Get Immediate WhatsApp Support from i-Sprint Experts"
+    },
+    "section3": {
+      "badge": "Good to Know",
+      "title": "What to Expect When Working with i-Sprint",
+      "titleGradient": "Working with i-Sprint",
+      "description": "Here’s what you can expect when partnering with i-Sprint — from project timelines, payments, ongoing support, to clear communication for your web and mobile projects.",
+      "faqs": [
+        {
+          "question": "How long does a typical web development project take?",
+          "answer": "Project timelines vary depending on size and complexity — from as fast as 24 hours for urgent tasks to 4–60 days for larger web or mobile projects."
+        },
+        {
+          "question": "Do you work with international clients?",
+          "answer": "Absolutely! We collaborate with clients worldwide, adapting to your time zone to provide seamless communication and support."
+        },
+        {
+          "question": "What's your payment structure for web and mobile projects?",
+          "answer": "We start with 25% upfront, 25% at the halfway point, and the remaining 50% upon project completion — ensuring transparency and trust."
+        },
+        {
+          "question": "Do you provide ongoing website maintenance and support?",
+          "answer": "Yes — we offer dedicated maintenance packages and continuous after-sales support to keep your website or app running smoothly and updated."
+        }
+      ]
+    }
+  },
+
+  "FollowUs": {
+    "title": "Follow Us",
+    "subtitle": "Stay connected for updates and latest projects"
+  },
+
+  "FormContact": {
+    "title": "Send Us a Message — We're Available 24/7",
+    "subtitle": "We’d love to hear from you! Share your ideas below and we’ll reply within 1 hour — let’s bring your vision to life.",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Your full name",
+    "companyLabel": "Your Company Name",
+    "companyPlaceholder": "Your company",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "your@email.com",
+    "phoneLabel": "Your Phone",
+    "phonePlaceholder": "+1 (555) 123-4567",
+    "messageLabel": "Project",
+    "messagePlaceholder": "Tell us about your project...",
+    "sendBtn": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for your message. We'll get back to you within 24 hours."
+  },
+  "Footer": {
+  "yearsOf": "10 years of",
+  "experience": "Experience",
+  "description": "We specialize in designing and developing professional websites, mobile applications, custom digital solutions, UX/UI design, and AI-powered platforms that reflect your brand identity and boost your online success.",
+  "start": "Start Your Web Project",
+  "companyTitle": "Company",
+
+  "companyLink1": "i-Sprint – Your Expert Partner in Digital Solutions",
+  "companyLink2": "Our Story – Discover i-Sprint’s Journey in Web & App Development",
+  "companyLink3": "Web & Mobile Solutions – Complete Services for Design, Development & Digital Marketing",
+  "companyLink4": "Our Portfolio – Explore Successful Projects and Innovative Digital Solutions",
+  "companyLink5": "Start Your Web Project Today – Turn Your Digital Idea into Real Success"
+
+,
+  "specialize": "We Specialize In",
+  "services": [
+    "Digital Business Consulting & Strategy",
+    "Responsive Web Development & SEO-Friendly Websites",
+    "Custom Web Solutions & Admin Panels",
+    "Secure Web Hosting & Technical Support",
+    "Cross-Platform Mobile App Development (iOS & Android)",
+    "ERP Systems & Resource Management",
+    "CRM Systems & Workflow Automation",
+    "AI-Powered Business Automation Solutions"
+  ],
+  "contactTitle": "Contact Us",
+  "contact": {
+    "whatsApp": "Instant WhatsApp Support — 24/7 availability for Web & App Projects",
+    "phone": "Direct Call to Web & Mobile Experts",
+    "email": "Email Support — Get a reply within 1 business hour"
+  },
+  "followUsTitle": "Follow Us",
+  "followUsDesc": "Stay connected for updates and latest projects",
+  "madeWith": "Made with love by our team."
+}
+
+}
