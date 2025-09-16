@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 type Props = {
   children: React.ReactNode;
-  params: { locale: string };
+  params: any; // مؤقتاً لحد ما المشكلة تتحل
 };
 
 // دالة generateMetadata جاهزة لكل SEO وSocial Sharing
@@ -20,7 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: t("description"),
     keywords: t("keywords"),
     authors: [{ name: t("author") }],
-    viewport: "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1",
+    viewport:
+      "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1",
     themeColor: "default",
     icons: {
       icon: "/i.svg",
@@ -31,34 +32,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: "https://www.i-sprint.com",
     },
     other: {
-      "robots": "index, follow",
-      "google": "notranslate",
+      robots: "index, follow",
+      google: "notranslate",
       "content-Type": "text/html;charset=UTF-8",
       "apple-mobile-web-app-status-bar-style": "default",
       "Content-Language": params.locale,
-      "direction": params.locale === "ar" ? "rtl" : "ltr"
+      direction: params.locale === "ar" ? "rtl" : "ltr",
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
       url: "https://www.i-sprint.com",
-  siteName: "i-Sprint",
+      siteName: "i-Sprint",
       images: [
         {
           url: "/preview.png",
           width: 1200,
           height: 630,
-          alt: t("title")
-        }
+          alt: t("title"),
+        },
       ],
-      type: "website"
+      type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
-      images:["/preview.png"]
-    }
+      images: ["/preview.png"],
+    },
   };
 }
 
