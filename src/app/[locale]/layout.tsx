@@ -29,10 +29,10 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  // params: { locale: string };
-   params: any; 
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = params;
+  const { locale } = await params;
+
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
@@ -47,9 +47,9 @@ export default async function LocaleLayout({
       >
         <div
           dir={locale === "ar" ? "rtl" : "ltr"}
-          className={`${orbitron.variable} ${geistSans.variable} ${
-            geistMono.variable
-          } ${locale === "ar" ? cairo.variable : ""} dark antialiased`}
+          className={`${orbitron.variable} ${geistSans.variable} ${geistMono.variable} ${
+            locale === "ar" ? cairo.variable : ""
+          } dark antialiased`}
         >
           <Navbar />
           <main>{children}</main>

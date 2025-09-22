@@ -9,7 +9,11 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Globe } from "lucide-react"; // أيقونة اللغة
 
-export default function LanguageSwitcher({ className = "" }) {
+interface Props {
+  className?: string;
+}
+
+export default function LanguageSwitcher({ className = "" }: Props) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -21,13 +25,13 @@ export default function LanguageSwitcher({ className = "" }) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <span
-          className={`bg-transparent text-foreground hover:bg-transparent cursor-pointer ${className}`}
-       
+        <button
+          type="button"
+          className={`flex items-center gap-1 bg-transparent text-foreground hover:bg-transparent cursor-pointer ${className}`}
         >
           <Globe className="w-4.5 h-4.5 text-white/60" />
           <span className="sr-only">Change Language</span>
-        </span>
+        </button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => switchToLocale("en")}>

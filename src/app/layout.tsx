@@ -1,28 +1,26 @@
-// app/layout.tsx
 import "./globals.css";
 import { getTranslations } from "next-intl/server";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 type Props = {
-  children: React.ReactNode;
-  params: any; // مؤقتاً لحد ما المشكلة تتحل
+  params: Promise<{ locale: string }>;
 };
 
-// دالة generateMetadata جاهزة لكل SEO وSocial Sharing
+// ✅ Metadata
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
   const t = await getTranslations({
-    locale: params.locale,
+    locale,
     namespace: "Metadata",
   });
 
   return {
+    metadataBase: new URL("https://www.i-sprint.com"),
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
     authors: [{ name: t("author") }],
-    viewport:
-      "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1",
-    themeColor: "default",
     icons: {
       icon: "/i.svg",
       shortcut: "/i.svg",
@@ -30,14 +28,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     alternates: {
       canonical: "https://www.i-sprint.com",
-    },
-    other: {
-      robots: "index, follow",
-      google: "notranslate",
-      "content-Type": "text/html;charset=UTF-8",
-      "apple-mobile-web-app-status-bar-style": "default",
-      "Content-Language": params.locale,
-      direction: params.locale === "ar" ? "rtl" : "ltr",
     },
     openGraph: {
       title: t("title"),
@@ -60,10 +50,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t("description"),
       images: ["/preview.png"],
     },
+    other: {
+      robots: "index, follow",
+      google: "notranslate",
+      "content-Type": "text/html;charset=UTF-8",
+      "apple-mobile-web-app-status-bar-style": "default",
+      "Content-Language": locale,
+      direction: locale === "ar" ? "rtl" : "ltr",
+    },
   };
 }
 
-// RootLayout نفسه
+// ✅ Viewport (لازم يتصدر لوحده)
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  minimumScale: 1,
+  maximumScale: 1,
+};
+
+export const themeColor = "#ffffff";
+
+// ✅ Root Layout
 export default function RootLayout({
   children,
 }: {
@@ -71,15 +79,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning>
-       <head>
-      <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="اسم تطبيقك" />
-      </head>
+      <head />
       <body suppressHydrationWarning>{children}</body>
     </html>
   );
