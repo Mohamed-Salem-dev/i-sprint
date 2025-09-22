@@ -64,6 +64,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 // RootLayout نفسه
-export default function RootLayout({ children }: Props) {
-  return <>{children}</>;
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html suppressHydrationWarning>
+       <head>
+      <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="اسم تطبيقك" />
+      </head>
+      <body suppressHydrationWarning>{children}</body>
+    </html>
+  );
 }

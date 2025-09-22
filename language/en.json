@@ -236,6 +236,13 @@
     ],
     "imageAlt": "Preview of PWA interface on smartphone"
   },
+
+  "pwaSection": {
+    "badge": "Apps Excellence",
+    "title": "Mobile & Progressive Web Apps",
+    "subtitle": "We build native mobile apps and PWAs that deliver speed, offline access, push notifications, and seamless user experiences."
+  },
+
   "mobile": {
     "badge": "Mobile App Excellence",
     "title": "Native Mobile Applications",
@@ -328,7 +335,6 @@
       }
     ]
   },
-
 
   "about": {
     "hero": {
@@ -837,39 +843,37 @@
     "successMessage": "Thank you for your message. We'll get back to you within 24 hours."
   },
   "Footer": {
-  "yearsOf": "10 years of",
-  "experience": "Experience",
-  "description": "We specialize in designing and developing professional websites, mobile applications, custom digital solutions, UX/UI design, and AI-powered platforms that reflect your brand identity and boost your online success.",
-  "start": "Start Your Web Project",
-  "companyTitle": "Company",
+    "yearsOf": "10 years of",
+    "experience": "Experience",
+    "description": "We specialize in designing and developing professional websites, mobile applications, custom digital solutions, UX/UI design, and AI-powered platforms that reflect your brand identity and boost your online success.",
+    "start": "Start Your Web Project",
+    "companyTitle": "Company",
 
-  "companyLink1": "i-Sprint – Your Expert Partner in Digital Solutions",
-  "companyLink2": "Our Story – Discover i-Sprint’s Journey in Web & App Development",
-  "companyLink3": "Web & Mobile Solutions – Complete Services for Design, Development & Digital Marketing",
-  "companyLink4": "Our Portfolio – Explore Successful Projects and Innovative Digital Solutions",
-  "companyLink5": "Start Your Web Project Today – Turn Your Digital Idea into Real Success"
+    "companyLink1": "i-Sprint – Your Expert Partner in Digital Solutions",
+    "companyLink2": "Our Story – Discover i-Sprint’s Journey in Web & App Development",
+    "companyLink3": "Web & Mobile Solutions – Complete Services for Design, Development & Digital Marketing",
+    "companyLink4": "Our Portfolio – Explore Successful Projects and Innovative Digital Solutions",
+    "companyLink5": "Start Your Web Project Today – Turn Your Digital Idea into Real Success",
 
-,
-  "specialize": "We Specialize In",
-  "services": [
-    "Digital Business Consulting & Strategy",
-    "Responsive Web Development & SEO-Friendly Websites",
-    "Custom Web Solutions & Admin Panels",
-    "Secure Web Hosting & Technical Support",
-    "Cross-Platform Mobile App Development (iOS & Android)",
-    "ERP Systems & Resource Management",
-    "CRM Systems & Workflow Automation",
-    "AI-Powered Business Automation Solutions"
-  ],
-  "contactTitle": "Contact Us",
-  "contact": {
-    "whatsApp": "Instant WhatsApp Support — 24/7 availability for Web & App Projects",
-    "phone": "Direct Call to Web & Mobile Experts",
-    "email": "Email Support — Get a reply within 1 business hour"
-  },
-  "followUsTitle": "Follow Us",
-  "followUsDesc": "Stay connected for updates and latest projects",
-  "madeWith": "Made with love by our team."
-}
-
+    "specialize": "We Specialize In",
+    "services": [
+      "Digital Business Consulting & Strategy",
+      "Responsive Web Development & SEO-Friendly Websites",
+      "Custom Web Solutions & Admin Panels",
+      "Secure Web Hosting & Technical Support",
+      "Cross-Platform Mobile App Development (iOS & Android)",
+      "ERP Systems & Resource Management",
+      "CRM Systems & Workflow Automation",
+      "AI-Powered Business Automation Solutions"
+    ],
+    "contactTitle": "Contact Us",
+    "contact": {
+      "whatsApp": "Instant WhatsApp Support — 24/7 availability for Web & App Projects",
+      "phone": "Direct Call to Web & Mobile Experts",
+      "email": "Email Support — Get a reply within 1 business hour"
+    },
+    "followUsTitle": "Follow Us",
+    "followUsDesc": "Stay connected for updates and latest projects",
+    "madeWith": "Made with love by our team."
+  }
 }

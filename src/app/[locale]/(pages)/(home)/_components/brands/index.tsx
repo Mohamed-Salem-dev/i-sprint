@@ -57,6 +57,7 @@ export function PartnersSection() {
   const locale = useLocale();
   const isRTL = locale === "ar";
 
+
   return (
     //   <div className="py-24 relative  overflow-hidden bg-fixe bg-cover bg-center "
     //    style={{
@@ -249,23 +250,28 @@ export function PartnersSection() {
             </div>
           </div>
 
-          <div className="flex justify-end absolute z-20 -top-60 right-0">
+          <div className="flex justify-end ">
             <motion.div
-              animate={{ y: [0, -30, 0] }}
-              transition={{
-                duration: 3,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-            >
-              <Image
-                src="/images/dd.png"
-                alt=""
-                width={600}
-                height={100}
-                className="drop-shadow-lg brightness-150 saturate-200 hue-rotate-180"
-              />
-            </motion.div>
+      animate={{ y: [-50, -250] }}
+      transition={{
+        duration: 4,
+        repeat: Infinity,
+        repeatType: "reverse",
+        ease: "linear",
+      }}
+      className={`absolute top-0 drop-shadow-lg brightness-150 saturate-200 hue-rotate-180 z-50
+        ${isRTL ? "left-0 scale-x-[-1]" : "right-0"}
+      `}
+    >
+      <Image
+        loading="lazy"
+        src="/images/dd.png"
+        alt="Preview of PWA and Mobile App interfaces"
+        width={800}
+        height={50}
+        className="w-[400px] lg:w-[600px] object-cover"
+      />
+    </motion.div>
           </div>
         </div>
       </div>

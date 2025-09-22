@@ -24,6 +24,8 @@ type Feature = {
 export default function MobilePwaSection() {
   const tPwa = useTranslations("pwa");
   const tMobile = useTranslations("mobile");
+         const tPwaSection = useTranslations("pwaSection");
+
 
   // ✅ أيقونات PWA
   const pwaIcons = [Smartphone, Zap, WifiOff, DownloadCloud, Bell, ShieldCheck];
@@ -60,12 +62,14 @@ export default function MobilePwaSection() {
 
       <div className="relative z-40">
         <Container>
-          <SectionHeader
-            badge="Apps Excellence"
-            title="Mobile & Progressive Web Apps"
-            subtitle="We build native mobile apps and PWAs that deliver speed, offline access, push notifications, and seamless user experiences."
-            icon={Smartphone}
-          />
+
+<SectionHeader
+  badge={tPwaSection("badge")}
+  title={tPwaSection("title")}
+  subtitle={tPwaSection("subtitle")}
+  icon={Smartphone}
+/>
+
         </Container>
 
         <Container>

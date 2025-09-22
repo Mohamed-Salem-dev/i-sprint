@@ -3,11 +3,10 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import { Briefcase, Calendar, BarChart2, Play, Timer } from "lucide-react";
+import { Briefcase, Calendar, Play, Timer } from "lucide-react";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import Container from "@/components/global/container";
-import SectionHeader from "@/components/global/section-header";
 
 function AnimatedCounter({
   value,
@@ -99,8 +98,6 @@ export default function StatsHome() {
           after:rounded-2xl after:bg-gradient-to-b after:from-black/5 after:to-main/10
           `}
       >
-    
-
         <div className="grid grid-cols-1 lg:grid-cols-[55%_45%]">
           <div
             className={`bg-gradient-to-r lg:from-main/5 lg:to-main/10 rounded-s-4xl h-full lg:pt-24 lg:pb-20 pb-5
@@ -121,8 +118,8 @@ export default function StatsHome() {
                     }
                 after:absolute after:h-[100%] after:rounded-2xl after:w-[30%] after:bg-[#ffffff38] after:rotate-[35deg]`}
               >
-             <h2 className="font-orbitron pb-5">{t("title")}</h2>
-                <h3 className="text-xl lg:text-2xl font-bold mb-2 pb-1 lg:w-[90%] w-full uppercase font-orbitron">
+                <h2 className="font-orbitron pb-5">{t("title")}</h2>
+                <h3 className="text-xl lg:text-2xl font-bold mb-2 pb-1 lg:w-[50%] w-full uppercase font-orbitron">
                   {t("subtitle")}
                 </h3>
 
@@ -156,7 +153,6 @@ export default function StatsHome() {
                     whileHover={{ scale: 1.05, rotate: 5 }}
                     transition={{ type: "spring", stiffness: 300 }}
                     aria-label={stat.label + ": " + stat.description}
-
                     className="inline-flex bg-[#1f1f1fd5] group-hover:bg-amber-50 items-center justify-center min-w-12 w-12 h-12 rounded-full shadow-lg"
                   >
                     <stat.icon className="w-5 h-5 text-main" />
@@ -177,7 +173,7 @@ export default function StatsHome() {
                 </motion.div>
               ))}
             </div>
-            
+
             <Link
               href="/start"
               className="text-lg gap-2 lg:hidden flex   mt-5 mb-8 px-8 py-3 duration-300 max-w-max  items-center justify-center rounded-lg bg-gradient-to-r transition-all from-main/90 to-main/90"
