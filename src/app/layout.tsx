@@ -61,15 +61,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// ✅ Viewport (لازم يتصدر لوحده)
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   minimumScale: 1,
   maximumScale: 1,
+  themeColor: "#ffffff",
 };
-
-export const themeColor = "#ffffff";
 
 // ✅ Root Layout
 export default function RootLayout({
@@ -80,7 +78,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <head />
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>{children} </body>
     </html>
   );
 }
