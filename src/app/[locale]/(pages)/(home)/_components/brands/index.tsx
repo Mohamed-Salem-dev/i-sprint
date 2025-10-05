@@ -160,7 +160,7 @@ export function PartnersSection() {
     //   </div>
     <>
       <div
-        className="relative bg-cover bg-center bg-no-repeat px-4 pt-10 pb-[50rem]"
+        className="relative bg-cover bg-center bg-no-repeat px-4 pt-10 lg:pb-[50rem] pb-[40rem]"
         style={{ backgroundImage: "url(/images/earth.png)" }}
       >
         <Container>

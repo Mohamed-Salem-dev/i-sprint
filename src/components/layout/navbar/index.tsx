@@ -95,7 +95,7 @@ export default function Navbar() {
           className={`fixed top-4 ${
             isRTL ? "right-4" : "left-4"
           } z-50 bg-[#0f172a] rounded-full 
-        px-4 py-2 flex items-center justify-between gap-3 min-w-[80%] lg:hidden ${
+        px-4 py-1.5 flex items-center justify-between gap-3 min-w-[70%] lg:hidden ${
           scrolled ? "bg-[#1e2020] shadow-xl" : "bg-[#00000021] backdrop-blur"
         }`}
         >
@@ -105,14 +105,14 @@ export default function Navbar() {
               height={0}
               src="/images/i-sprint-light.svg"
               alt=""
-              className="object-cover w-[120px] h-12"
+              className="object-cover w-[90px] h-12"
             />
           </Link>
-         <div className="flex gap-2">
-           <LanguageSwitcher className="w-12 h-12 flex items-center justify-center  bg-transparent  border border-white/20 rounded-full" />
+         <div className="flex gap-1">
+           <LanguageSwitcher className="w-10 h-10 flex items-center justify-center  bg-transparent  border border-white/20 rounded-full" />
            <Link
             href="/start"
-            className="bg-gradient-to-r text-base flex items-center px-5 gap-1 py-2.5 from-main/90 to-main/90 rounded-full text-white hover:from-main/90 hover:to-main/5 transition-all duration-300"
+            className="bg-gradient-to-r text-base flex items-center px-4 gap-1 py-2 from-main/90 to-main/90 rounded-full text-white hover:from-main/90 hover:to-main/5 transition-all duration-300"
           >
             <Play className="w-5 h-5" />
             {t("Start")}
@@ -125,12 +125,12 @@ export default function Navbar() {
         <Sheet>
           <SheetTrigger asChild>
             <div
-              className={`fixed top-5  ${
-                isRTL ? "left-5" : "right-5"
+              className={`fixed top-6  ${
+                isRTL ? "left-4" : "right-2"
               } z-50 lg:hidden`}
             >
               <span
-                className={`rounded-full flex items-center justify-center  w-12 h-12 cursor-pointer ${
+                className={`rounded-full flex items-center justify-center  w-11 h-11 cursor-pointer ${
                   scrolled
                     ? "bg-[#1e2020] shadow-xl"
                     : "bg-[#00000021] backdrop-blur"

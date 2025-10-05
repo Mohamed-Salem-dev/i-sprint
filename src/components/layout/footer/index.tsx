@@ -95,7 +95,7 @@ export default function Footer() {
       <div className="absolute inset-0 bg-background/20" />
 
       <Container className="relative z-10">
-        <div className="py-8">
+        <div className="lg:py-8 -mt-32">
           <div className="grid lg:grid-cols-4  gap-6 ">
             <motion.div
               initial={{ y: 50, opacity: 0 }}

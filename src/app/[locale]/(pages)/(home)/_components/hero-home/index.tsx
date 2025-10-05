@@ -154,7 +154,7 @@ export function HeroHome() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.6 }}
-                className="text-base md:text-lg mb-8 text-white/60 w-2/3 m-auto leading-relaxed"
+                className="text-base md:text-lg mb-8 text-white/60 lg:w-2/3 m-auto leading-relaxed"
               >
                 {slide.description}
               </motion.p>
