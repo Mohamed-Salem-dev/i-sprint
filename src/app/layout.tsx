@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: t("keywords"),
     authors: [{ name: t("author") }],
     icons: {
-      icon: "/  ",
+      icon: "/i.svg",
       shortcut: "/i.svg",
       apple: "/i.svg",
     },
