@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: t("keywords"),
     authors: [{ name: t("author") }],
     icons: {
-      icon: "/i.svg",
+      icon: "/  ",
       shortcut: "/i.svg",
       apple: "/i.svg",
     },
@@ -75,14 +75,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html suppressHydrationWarning>
-      <head>
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="theme-color" content="#ffffff" />
-</head>
-
-      <body suppressHydrationWarning>{children} </body>
-    </html>
-  );
+  return <>{children} </>;
 }

@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["images.pexels.com", "example.com"],
   },
+    output: 'standalone', // أو 'export' لو موقعك static
+  
+  // إعدادات الـ Trailing Slash (اختياري)
+  trailingSlash: false,
   async headers() {
     return [
       {

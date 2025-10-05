@@ -39,16 +39,16 @@ export default function BusinessSolutionsSection() {
   return (
     <section
       className="relative py-16 bg-cover bg-center bg-no-repeat rounded-4xl overflow-hidden"
-       style={{
-            backgroundImage: "url('/images/bg-2.jpg')",
-          }}
+      style={{
+        backgroundImage: "url('/images/bg-2.jpg')",
+      }}
     >
-               <div className="absolute inset-0 z-0" />
-          <div className="absolute inset-0 bg-background/95" />
+      <div className="absolute inset-0 z-0" />
+      <div className="absolute inset-0 bg-background/95" />
 
-          <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-background/90 to-transparent z-10" />
+      <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-background/90 to-transparent z-10" />
 
-          <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background/90 to-transparent z-10" />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background/90 to-transparent z-10" />
 
       <div className="relative mx-auto z-10 ">
         <motion.div
@@ -73,13 +73,13 @@ export default function BusinessSolutionsSection() {
                   key={idx}
                   className="lg:p-5 p-4 border-s-4 border-main/90 bg-white/5 backdrop-blur-sm rounded-md shadow-sm hover:shadow-md transition-all flex items-start flex-col lg:flex-row lg:gap-4 gap-2"
                 >
-                  <Image loading="lazy"
+                  <Image
+                    loading="lazy"
                     src={item.icon}
                     alt={`${item.title} by i-Sprint`}
                     width={40}
                     height={40}
                     className="lg:w-10 lg:h-10 w-8 h-8 object-contain"
-                    
                   />
                   <div>
                     <h3 className="lg:text-lg text-base font-semibold text-white/80 mb-1">
