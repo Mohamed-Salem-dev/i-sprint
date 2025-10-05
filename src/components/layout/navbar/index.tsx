@@ -108,13 +108,17 @@ export default function Navbar() {
               className="object-cover w-[120px] h-12"
             />
           </Link>
-          <Link
+         <div className="flex gap-2">
+           <LanguageSwitcher className="w-12 h-12 flex items-center justify-center  bg-transparent  border border-white/20 rounded-full" />
+           <Link
             href="/start"
             className="bg-gradient-to-r text-base flex items-center px-5 gap-1 py-2.5 from-main/90 to-main/90 rounded-full text-white hover:from-main/90 hover:to-main/5 transition-all duration-300"
           >
             <Play className="w-5 h-5" />
             {t("Start")}
           </Link>
+
+         </div>
         </div>
 
         {/* Mobile Menu Button + Sidebar */}
