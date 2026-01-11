@@ -875,5 +875,88 @@
     "followUsTitle": "Follow Us",
     "followUsDesc": "Stay connected for updates and latest projects",
     "madeWith": "Made with love by our team."
+  },
+   "RPASection": {
+    "badge": "RPA Solutions",
+    "title": "Transform Your Business with RPA",
+    "subtitle": "Intelligent Automation for Every Workflow",
+    "motto": "Automate. Accelerate. Innovate.",
+    "description": "Our RPA (Robotic Process Automation) solutions empower your business to eliminate repetitive tasks, reduce errors, and save valuable time. By combining automation with intelligence, RPA frees your teams to focus on high-value work, driving efficiency and innovation across all departments.",
+    "features": [
+      "Automates Repetitive & Manual Processes",
+      "Reduces Human Errors & Boosts Accuracy",
+      "Scales Easily Across Teams & Operations",
+      "Increases Productivity & Lowers Costs"
+    ],
+    "imageAlt": "RPA Dashboard"
+  },
+   "WorkflowSection": {
+    "badge": "Workflow Automation",
+    "title": "Transform Your Business with Workflow",
+    "subtitle": "Smarter Workflows, Powered by Automation",
+    "motto": "Automate. Accelerate. Innovate.",
+    "description": "Our Workflow & RPA solutions streamline repetitive tasks, optimize operations, and enable your teams to focus on growth and innovation. From document processing to customer service, we help your business save time, reduce errors, and scale efficiently.",
+    "feature1": "Automate repetitive tasks with AI.",
+    "feature2": "Track progress in real-time dashboards.",
+    "feature3": "Integrate seamlessly with your workflow.",
+    "feature4": "Optimize decisions with data-driven insights.",
+    "imageAlt": "Workflow Dashboard"
+  },
+    "KnowledgeSection": {
+    "badge": "Knowledge Hub",
+    "title": "Empower Your Business with Knowledge",
+    "subtitle": "Centralize & Share Knowledge Effectively",
+    "motto": "Organize. Learn. Grow.",
+    "description": "Our Knowledge Management solutions give your teams instant access to information, best practices, and insights. Empower your workforce to make smarter decisions, reduce duplication, and drive innovation by centralizing critical business knowledge in one hub.",
+    "features": [
+      "Centralized Knowledge Repository",
+      "Smart Search & Quick Access",
+      "Collaborative Learning & Sharing",
+      "Knowledge-Driven Decisions"
+    ],
+    "imageAlt": "Knowledge Dashboard"
+  },
+    "ProjectManagementSection": {
+    "badge": "Project Management",
+    "title": "Organize, Track & Deliver Projects Seamlessly",
+    "subtitle": "Smarter Project Management",
+    "motto": "Plan. Collaborate. Succeed.",
+    "description": "Our Project Management solution helps teams stay on track, meet deadlines, and collaborate effectively. From task assignment to real-time progress tracking, you can manage complex workflows with clarity and confidence.",
+    "features": [
+      "Task Assignment & Tracking",
+      "Team Collaboration & Communication",
+      "Real-Time Progress Monitoring",
+      "Deadline & Milestone Management"
+    ],
+    "imageAlt": "Project Management Dashboard"
+  }
+  ,
+  "QRSection": {
+    "badge": "QR Code Solutions",
+    "title": "Engage Smarter with Custom QR Codes",
+    "subtitle": "Dynamic & Secure QR Codes",
+    "motto": "Connect. Share. Simplify.",
+    "description": "Our QR Code solutions help your business connect with customers instantly. From digital menus to payment links and product details, QR Codes make access fast, secure, and user-friendly while enhancing your brand’s digital presence.",
+    "features": [
+      "Branded & Customizable QR Codes",
+      "Instant Access to Links & Content",
+      "Secure & Trackable Scans",
+      "Perfect for Payments & Mobile Marketing"
+    ],
+    "imageAlt": "QR Code Dashboard"
+  },
+   "HRSection": {
+    "badge": "Smart HR System",
+    "title": "Transform Workforce Management with HR System",
+    "subtitle": "Efficient, Smart & People-Centric",
+    "motto": "Manage. Empower. Grow.",
+    "description": "Our HR System streamlines workforce management with automation and analytics. From recruitment and payroll to performance tracking, it helps organizations reduce manual effort, ensure compliance, and empower teams to focus on growth and innovation.",
+    "features": {
+      "recruitment": "Recruitment & Onboarding Automation",
+      "payroll": "Payroll & Benefits Management",
+      "performance": "Performance Tracking & Analytics",
+      "compliance": "Compliance & Data Security"
+    },
+    "imageAlt": "HR Dashboard Software Preview"
   }
 }

@@ -10,6 +10,7 @@ import PortfolioHome from "./portfolio-home";
 import ProjectStepsSection from "@/components/global/project-steps-section";
 import BusinessSolutionsSection from "./BusinessSolutionsSection";
 import MobilePwaSection from "./mobile-pwa-section";
+import AiGeneratorSection from "./AiGeneratorSection/AiGeneratorSection";
 
 export default function HomeComponent() {
   return (
@@ -21,6 +22,7 @@ export default function HomeComponent() {
       <ServicesHome />
       {/* ============================ */}
       <MobilePwaSection />
+      <AiGeneratorSection />
       <StatsHome />
       <BusinessSolutionsSection />
       <PartnersSection />
