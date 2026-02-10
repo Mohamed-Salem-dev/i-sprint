@@ -11,6 +11,9 @@ import ProjectStepsSection from "@/components/global/project-steps-section";
 import BusinessSolutionsSection from "./BusinessSolutionsSection";
 import MobilePwaSection from "./mobile-pwa-section";
 import AiGeneratorSection from "./AiGeneratorSection/AiGeneratorSection";
+import ISprintModernLayout from "./ISprintServices";
+import AdditionalServices from "./additional-services";
+import { PricingHome } from "./pricing-home";
 
 export default function HomeComponent() {
   return (
@@ -20,13 +23,16 @@ export default function HomeComponent() {
       <PortfolioHome />
       <ProjectStepsSection />
       <ServicesHome />
+      <ISprintModernLayout />
       {/* ============================ */}
+      <div className="pb-[28rem]">
+        <AiGeneratorSection />
+      </div>
       <MobilePwaSection />
-      <AiGeneratorSection />
       <StatsHome />
       <BusinessSolutionsSection />
+      <AdditionalServices />
       <PartnersSection />
-      {/* <AdditionalServices /> */}
 
       {/* <PricingHome /> */}
     </>

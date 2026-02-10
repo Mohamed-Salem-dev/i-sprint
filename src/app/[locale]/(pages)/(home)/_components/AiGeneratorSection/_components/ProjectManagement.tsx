@@ -28,7 +28,7 @@ export default function ProjectManagement() {
   const t = useTranslations("ProjectManagementSection");
 
   return (
-    <div className="panel min-w-full min-h-screen flex items-center justify-center text-white relative lg:px-28 px-4 bg-gradient-to-br from-[#1B263B] via-[#0F172A] to-[#0A192F]">
+    <div className="panel min-w-full min-h-screen flex items-center justify-center text-white relative lg:px-28 px-4 bg-gradient-to-br from-[#3c4048] via-[#1b1c1f] to-[#272729]">
       <div className="relative z-40">
         {/* Header */}
         <motion.div

@@ -64,7 +64,7 @@ export default function AiGeneratorSection() {
 
   return (
     <section ref={sectionRef} className="w-full relative z-50 mt-16 mb-52">
-      {/* <AIAgent /> */}
+      <AIAgent />
       <RPA />
       <Workflow />
       <Knowledge />

@@ -24,7 +24,7 @@ export default function AIAgent() {
 
   return (
     <motion.div
-      className="panel min-w-full min-h-screen flex items-center justify-center text-white relative lg:px-28 px-4 bg-gradient-to-br from-[#0B1221] via-[#111827] to-[#1E293B]
+      className="panel min-w-full min-h-screen flex items-center justify-center text-white relative lg:px-28 px-4 bg-gradient-to-br from-[#3c4048] via-[#1b1c1f] to-[#272729]
 "
       initial="hidden"
       whileInView="show"

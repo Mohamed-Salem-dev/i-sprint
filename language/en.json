@@ -958,5 +958,20 @@
       "compliance": "Compliance & Data Security"
     },
     "imageAlt": "HR Dashboard Software Preview"
+  },
+    "AIAgentSection": {
+    "badge": "AI-Powered Agent",
+    "title": "AI-Powered Generators",
+    "subtitle": "Transform your ideas into visuals, text, and interactive content with our advanced AI tools.",
+    "motto": "Automate. Optimize. Scale.",
+    "description": "Our AI-Agent is your intelligent digital assistant designed to boost productivity and decision-making. From automating customer interactions to analyzing data in real-time, AI-Agent helps your business operate faster, smarter, and more efficiently.",
+    "features": {
+      "nlu": "Natural Language Understanding & Smart Replies",
+      "automation": "Automates Workflows & Daily Tasks",
+      "analytics": "Real-Time Data Analysis & Insights",
+      "scalability": "Scales with Your Business Needs"
+    },
+    "imageAlt": "AI Agent Dashboard",
+    "cta": "Start Your AI Project"
   }
 }

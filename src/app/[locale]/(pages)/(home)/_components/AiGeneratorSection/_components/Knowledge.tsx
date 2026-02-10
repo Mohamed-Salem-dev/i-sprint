@@ -22,7 +22,7 @@ export default function Knowledge() {
   const t = useTranslations("KnowledgeSection");
 
   return (
-    <div className="panel min-w-full min-h-screen flex items-center justify-center text-white relative lg:px-28 px-4 bg-gradient-to-r from-[#1E293B] via-[#2D3E50] to-[#334155]
+    <div className="panel min-w-full min-h-screen flex items-center justify-center text-white relative lg:px-28 px-4 bg-gradient-to-r from-[#191c22] via-[#1b1c1f] to-[#424248]
 ">
       <div className="relative z-40">
         {/* Header */}

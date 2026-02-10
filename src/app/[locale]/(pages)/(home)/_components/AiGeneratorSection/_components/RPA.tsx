@@ -24,7 +24,7 @@ export default function RPA() {
 
   return (
     <motion.div
-      className="panel min-w-full min-h-screen flex items-center justify-center text-white relative lg:px-28 px-4 bg-gradient-to-r from-[#20252d] via-[#28292a] to-[#59595a]
+      className="panel min-w-full min-h-screen flex items-center justify-center text-white relative lg:px-28 px-4 bg-gradient-to-r from-[#191c22] via-[#1b1c1f] to-[#424248]
 "
       initial="hidden"
       whileInView="show"

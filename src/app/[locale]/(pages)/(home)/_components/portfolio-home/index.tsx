@@ -15,6 +15,12 @@ import SectionHeader from "@/components/global/section-header";
 
 const slidesTop = [
   {
+    src: "/images/projects/7adas.png",
+    title: "Wazin",
+    link: "https://7adas.ai/ar",
+    alt: "Modern web design project for 7adas by i-Sprint",
+  },
+  {
     src: "/images/projects/1.png",
     title: "Wazin",
     link: "https://www.wazin.sa/ar",
@@ -50,15 +56,16 @@ const slidesTop = [
     link: "https://nen-global.org/EN/index.html",
     alt: "Educational platform project for NEN Global by i-Sprint",
   },
-  {
+ 
+];
+
+const slidesBottom = [
+   {
     src: "/images/projects/36.png",
     title: "Elarbawy",
     link: "http://www.elarbawy.com/",
     alt: "Creative company website for Elarbawy by i-Sprint",
   },
-];
-
-const slidesBottom = [
   {
     src: "/images/projects/7.png",
     title: "Saudi Dates",
