@@ -13,7 +13,6 @@ import MobilePwaSection from "./mobile-pwa-section";
 import AiGeneratorSection from "./AiGeneratorSection/AiGeneratorSection";
 import ISprintModernLayout from "./ISprintServices";
 import AdditionalServices from "./additional-services";
-import { PricingHome } from "./pricing-home";
 
 export default function HomeComponent() {
   return (
